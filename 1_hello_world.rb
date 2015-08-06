@@ -1,10 +1,6 @@
 ### SETUP
 require 'rspec'
 
-RSpec.configure do |config|
-  config.color = true
-end
-
 ### LOGIC (fix me)
 
 def hello(who)

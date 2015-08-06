@@ -1,10 +1,6 @@
 ### SETUP
 require 'rspec'
 
-RSpec.configure do |config|
-  config.color = true
-end
-
 ### LOGIC (fix me)
 
 # Returns the average of all the numbers in the array
