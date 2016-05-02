@@ -6,11 +6,19 @@ require 'rspec'
 # Returns the average of all the numbers in the array
 def average(numbers)
   sum = 0
+  if numbers == []
+    return nil
+  elsif numbers == nil
+    return nil
+  end
+
   numbers.each do |n|
+    n = n.to_i if n.is_a?(String)
     sum += n
   end
   sum / numbers.size
 end
+
 
 ### TEST CODE (don't touch me)
 
